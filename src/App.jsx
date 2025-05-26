@@ -1,5 +1,6 @@
 import React from 'react'
 import Counter from './component/Counter'
+import FoodMenu from './component/foodMenu'
 import './App.css'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
   return (
   <div>
     <Counter />
+    <FoodMenu/>
   </div>
 
 

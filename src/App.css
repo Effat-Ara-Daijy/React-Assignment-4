@@ -1,15 +1,43 @@
+/* Counter CSS */
 .count-card {
   text-align: center;
   margin: 50px 0;
 }
-.buttonWrap{
+.count-card .buttonWrap{
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-button{
+.count-card button{
    padding: 20px;
   background: #ecffe5;
   border: 1px solid #cacaca;
   font-size: 20px;
+}
+
+/* Food Menu Wrap CSS */
+.foodmenu-wrap{
+    text-align: center;
+    margin: 50px 0;
+    border: 1px solid #cacaca;
+    padding: 30px;
+
+}
+.foodmenu-wrap h1{
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.foodmenu-wrap input{
+  border: 1px solid #cacaca;
+  padding: 10px;
+}
+.foodmenu-wrap button{
+  border: 1px solid cadetblue;
+  padding: 10px;
+  background: cadetblue;
+}
+.foodmenu-wrap ul{
+  text-align: center;
+  display: inline-block;
 }
